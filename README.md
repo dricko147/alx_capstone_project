@@ -18,7 +18,7 @@ Technologies Used
 
     HTML
     CSS
-    Python
+    Javascript
     Flask
     SQL
     Git
@@ -36,6 +36,10 @@ Future Enhancements
     Add user role management (admin).
     Implement social media sharing options for blog posts.
 
-Contact Information
+Contact Information 
 
-Author: Fred Eseka Github: dricko147
+<p><a href="https://twitter.com/fred_floss"> Twitter </a></p>
+
+<p><a href="https://linkedin.com/fred_floss"> Linkedin </a></p>
+
+Author: Fred Eseka Github: <p><a href="https://github.com/dricko147"> dricko147 </a></p>
