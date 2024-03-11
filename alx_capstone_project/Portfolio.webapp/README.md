@@ -1,1 +1,1 @@
-This is my Flexbox project for the WEBSITE TECHIUM
+A Responsive Portfolio Website Using Html, Css and JavaScript, with a beautiful user interface. It contains a Header, Home, About, Services & Skills, Portfolio, Repositories, Testimonial and a Contact Form.

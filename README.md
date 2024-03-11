@@ -1,16 +1,12 @@
 # alx_capstone_project
 
-Blogging Platform
+<H1>PERSONAL PORTFOLIO WEBSITE</H1>
 Overview
 
-The Blogging Platform is a web application that allows users to create, publish, and interact with blog posts. Its primary purpose is to provide a user-friendly platform for bloggers to share their thoughts, ideas, and stories with a wider audience. Additionally, it allows readers to engage with blog content by commenting on posts.
-Features and Functionalities
+A Responsive Portfolio Website Using Html, Css and JavaScript, with a beautiful user interface. It contains a Header, Home, About, Services & Skills, Portfolio, Repositories, Testimonial and a Contact Form.
 
-    User registration and authentication
-    Blog post creation and editing
-    Post comments
-    Blog post categories and tags
-    Blog post search
+Features and Functionalities
+    Categories and tags
     User profiles
     User dashboard
 
@@ -20,12 +16,11 @@ Technologies Used
     CSS
     Javascript
     Flask
-    SQL
     Git
 
 Demo
 
-    Figma Prototype link
+    Video Demo link
 
 Design
 
@@ -34,7 +29,7 @@ Design
 Future Enhancements
 
     Add user role management (admin).
-    Implement social media sharing options for blog posts.
+    Implement social media sharing options for posts.
 
 Contact Information 
 
@@ -42,4 +37,4 @@ Contact Information
 
 <p><a href="https://linkedin.com/fred_floss"> Linkedin </a></p>
 
-Author: Fred Eseka Github: <p><a href="https://github.com/dricko147"> dricko147 </a></p>
+Author: Fred Eseka <p><a href="https://github.com/dricko147">Github: dricko147</a></p>
