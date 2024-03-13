@@ -16,7 +16,7 @@
    ============================= */
 
    :root {
-    --color-primary: #D73953;
+    --color-primary: #FFD700;
     --color-black:  #090909;
     --color-white: #ffffff;
     --color-grey: #a0a0a0;
@@ -259,7 +259,7 @@
   
   /* Header
       ============================= */
-  
+
   .header {
     padding: var(--header-padding);
          position: relative;
