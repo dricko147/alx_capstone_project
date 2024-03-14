@@ -8,6 +8,9 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet"></p>
     <link rel='stylesheet' href='0-styles.css'>
+    <!-- ===== MAIN JS ===== -->
+    <script src="./js/main.js"></script>
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="745a7040-aac8-4484-93bd-a3dc57077f3a" data-blockingmode="auto" type="text/javascript"></script>
 <p></head>
   <body>
     <!– Header –>
@@ -27,13 +30,13 @@
               <a href="services_skills.html" class="nav-link">Services & Skills</a>
             </li>
             <li class="nav-item">
-              <a href="works.html" class="nav-link">Works</a>
-            </li>
-            <li class="nav-item">
               <a href="about.html" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="repositories.html" class="nav-link">Repositories</a>
+              <a href="works.html" class="nav-link">Works</a>
+            </li>            
+            <li class="nav-item">
+              <a href="projects.html" class="nav-link">Projects</a>
             </li>
             <li class="nav-item">
               <a href="#testimonials" class="nav-link">Testimonials</a>
@@ -205,7 +208,40 @@
         </div>
       </div>
     </section>
-
+    <!– About section –>
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">About</h2>
+          <p class="section-tagline">Everything about Me</p>
+        </header>
+        <div class="section-body">
+          <div class="row">
+            <div class="col-1-2">
+              <img src="images/pic-about-01.jpg" alt="" width="460" height="460">
+            </div>
+            <div class="col-1-2">
+              <h3>Who I am</h3>
+              <p>Solution-focused Web Developer with experience in web-based
+                applications. Participated in the development and implementation of web-based solutions.
+                Supported company business objectives and strategies while gaining real-world experience.
+                Mentored by Senior Web Developers.</p>
+              <h3>My Passion</h3>
+              <p>Passionate about earning multiple systems and efficient Web development
+                techniques. My Speciality is supporting intricate frontend needs and
+                lending assistance throughout a Webpage's lifecycle.</p>
+              <h3>How I work</h3>
+              <p> As a Resourceful Web Developer I lend a hands-on approach to customizing web presence
+                strategies. By adept creation of scripts using HTML, CSS and JavaScript to convey unique branding and
+                promote sales and marketing opportunities.</p>
+            </div>
+          </div>
+        </div>
+        <div class="section-footer">
+          <a href="https://twitter.com/fred_floss" class="button">Learn more about Me</a>
+        </div>
+      </div>
+    </section>
       <!– Works section –>
       <section id="works" class="section" data-section-theme="dark">
         <div class="container">
@@ -255,45 +291,12 @@
           </div>
         </div>
       </section>
-      <!– About section –>
-      <section id="about" class="section">
-        <div class="container">
-          <header class="section-header">
-            <h2 class="section-title">About</h2>
-            <p class="section-tagline">Everything about Me</p>
-          </header>
-          <div class="section-body">
-            <div class="row">
-              <div class="col-1-2">
-                <img src="images/pic-about-01.jpg" alt="" width="460" height="460">
-              </div>
-              <div class="col-1-2">
-                <h3>Who I am</h3>
-                <p>Solution-focused Web Developer with experience in web-based
-                  applications. Participated in the development and implementation of web-based solutions.
-                  Supported company business objectives and strategies while gaining real-world experience.
-                  Mentored by Senior Web Developers.</p>
-                <h3>My Passion</h3>
-                <p>Passionate about earning multiple systems and efficient Web development
-                  techniques. My Speciality is supporting intricate frontend needs and
-                  lending assistance throughout a Webpage's lifecycle.</p>
-                <h3>How I work</h3>
-                <p> As a Resourceful Web Developer I lend a hands-on approach to customizing web presence
-                  strategies. By adept creation of scripts using HTML, CSS and JavaScript to convey unique branding and
-                  promote sales and marketing opportunities.</p>
-              </div>
-            </div>
-          </div>
-          <div class="section-footer">
-            <a href="https://twitter.com/fred_floss" class="button">Learn more about Me</a>
-          </div>
-        </div>
-      </section>
-      <!– Repositories section –>
+      
+      <!– Projects section –>
       <section id="latest_news" class="section">
         <div class="container">
           <header class="section-header">
-            <h2 class="section-title">Repositories</h2>
+            <h2 class="section-title">Projects</h2>
           </header>
           <div class="section-body">
             <ul class="row">
@@ -385,16 +388,18 @@
             <h4>You are very important and your opinions count, you'll be promply responded to as soon as you send a message</h4>
           </div>
         <div class="contact__container bd-grid">
-          <b> <form action="mailto:fred.eseka@gmail.com" method="post" enctype="text/plain" class="contact__form">
+        <b>
+          <form action="mailto:fred.eseka@gmail.com" method="post" enctype="text/plain" class="contact__form">
             <input type="text" placeholder="Name" class="contact__input">
             <input type="mail" placeholder="Email" class="contact__input">
             <textarea name="" placeholder="Type Message here" id="" cols="0" rows="10" class="contact__input"></textarea>
                <a href="submit.html"
-                target="submit.html"><input type="button" value="Submit" class="contact__button button"></a>
-              </form> </b>
-          </div>
-          </section>
-      </section>
+                target="submit"><input type="button" value="Submit" class="contact__button button"></a>
+                <p id="error" style="color: red;"></p>
+          </form> </b>
+        </div>
+       </section>
+     </section>
     </main>
     <!– Footer –>
     <footer class="footer" data-section-theme="dark">
@@ -476,8 +481,7 @@
     </footer>
     <!-- ===== SCROLL REVEAL ===== -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- ===== MAIN JS ===== -->
-    <script src="./js/main.js"></script>
+    <!-- ===== EMAIL POP UP FORM ===== -->
     <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'a5091e5e-4190-44d3-ac4f-5f5dd6f8e2aa', f: true }); done = true; } }; })();</script>
   </body>
 </html>

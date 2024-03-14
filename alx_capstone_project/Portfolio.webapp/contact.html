@@ -8,6 +8,8 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet"></p>
     <link rel='stylesheet' href='0-styles.css'>
+    <!-- ===== MAIN JS ===== -->
+    <script src="./js/main.js"></script>
 <p></head>
   <body>
     <!– Header –>
@@ -27,13 +29,13 @@
               <a href="services_skills.html" class="nav-link">Services & Skills</a>
             </li>
             <li class="nav-item">
-              <a href="works.html" class="nav-link">Works</a>
-            </li>
-            <li class="nav-item">
               <a href="about.html" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="repositories.html" class="nav-link">Repositories</a>
+              <a href="works.html" class="nav-link">Works</a>
+            </li>
+            <li class="nav-item">
+              <a href="projects.html" class="nav-link">Projects</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link">Contact</a>
@@ -65,15 +67,17 @@
                 You'll be promply responded to as soon as you send a message</h3>
           </div>
         <div class="contact__container bd-grid">
-           <b> <form action="mailto:fred.eseka@gmail.com" method="post" enctype="text/plain" class="contact__form">
-                      <input type="text" placeholder="Name" class="contact__input">
-                      <input type="mail" placeholder="Email" class="contact__input">
-                      <textarea name="" placeholder="Type Message here" id="" cols="0" rows="10" class="contact__input"></textarea>
-                         <a href="submit.html"
-                          target="submit.html"><input type="button" value="Submit" class="contact__button button"></a>
-            </form> </b>
-          </div>
-          </section>
+         <b>
+          <form action="mailto:fred.eseka@gmail.com" method="post" enctype="text/plain" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input">
+            <input type="mail" placeholder="Email" class="contact__input">
+            <textarea name="" placeholder="Type Message here" id="" cols="0" rows="10" class="contact__input"></textarea>
+               <a href="submit.html"
+                target="submit"><input type="button" value="Submit" class="contact__button button"></a>
+                <p id="error" style="color: red;"></p>
+          </form> </b>
+        </div>
+       </section>
       </section>
 
       <!– Footer –>
@@ -156,8 +160,7 @@
     </footer>
     <!-- ===== SCROLL REVEAL ===== -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- ===== MAIN JS ===== -->
-    <script src="./js/main.js"></script>
+    <!-- ===== EMAIL FORM POP UP ===== -->
     <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'a5091e5e-4190-44d3-ac4f-5f5dd6f8e2aa', f: true }); done = true; } }; })();</script>
   </body>
 </html>

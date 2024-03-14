@@ -1,35 +1,24 @@
-// ===== MENU SHOW =====
-const showMenu = (toggleId, navId) =>{
-    const toggle = document.getElementById(toggleId),
-          nav = document.getElementById(navId)
-    
-    if(toggle && nav){
-        toggle.addEventListener('click', ()=>{
-            nav.classList.toggle('show')
-        })
-    }      
-}
-showMenu('nav-toggle','nav-menu') 
-// ===== ACTIVE AND REMOVE MENU =====
-const navLink = document.querySelectorAll('.nav__link')
+const form = document.getElementById('emailForm');
+const email = document.getElementById('email');
+const error = document.getElementById('error');
+const emailregex = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
 
-function linkAction(){
-    //Active link
-    navLink.forEach(n => n.classList.remove('active'))
-    this.classList.add('active')
-    //Remove menu mobile
-    const navMenu = document.getElementById('nav-menu')
-    navMenu.classList.remove('show')
-}
+function validateEmail() {
+    if (!emailregex.test(email.value.trim())) {
+        error.textContent = "Please enter a valid email address.";
+        return false;
+    } else {
+        error.textContent = "";
+        return true;
+    }
+};
 
-navLink.forEach(n => n.addEventListener('click', linkAction))
-// ===== SCROLL REVEAL ANIMATION =====
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '80px',
-    duration: 2000,
-    reset: true
-})
+form.addEventListener('submit', function(e) {
+    if (!validateEmail()) {
+        e.preventDefault();
+    }
+});
+
 // ===== SCROLL HOME =====
 sr.reveal('.home__title', {})
 sr.reveal('.button', {delay: 200})
