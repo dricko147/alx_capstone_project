@@ -18,11 +18,11 @@ A Responsive Portfolio Website Using Html, Css and JavaScript, with a beautiful 
     Git
 
 Demo
-    flowchart
-    (C:\Users\Ujoku\Documents\alx_capstone_project\alx_capstone_project\alx_capstone_project\Portfolio.webapp\workflow\flowchart.png)
-
 
     <p><a href="#">Video Demo link</a></p>
+
+    <img src="workflow/flowchart.png" alt="" width="460" height="400">
+
 
 Design
 
