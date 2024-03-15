@@ -503,3 +503,44 @@
     font-size: 10rem;
     z-index: -1;
   }
+
+/* #form STYLING
+      ============================= */
+
+  * {
+    margin:0;
+    padding:0;
+    font-family:lato, sans-serif
+  }
+  
+
+  form fieldset {
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+}
+
+  form legend {
+    font-size: 1.25em;
+    padding: 0 .25em;
+    color: #999
+
+}
+  
+  
+  form input{
+    width: 75%;
+    background-color: transparent;
+    padding: .5em;
+    border: solid 1px #999;
+    outline: none;
+    font-size: 2rem;
+}
+  textarea {
+    min-height:  8em;
+    min-width: 75%;
+    padding: .5em;
+    border: solid 1px #999;
+}

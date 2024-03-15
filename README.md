@@ -18,7 +18,7 @@ Technologies Used
     Git
 
 Demo
-
+    <p><img src="workflow/flowchart.png" alt=""> Flowchart </p>
     <p><a href="#"> Video Demo link </a></p>
 
 Design
