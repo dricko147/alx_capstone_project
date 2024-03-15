@@ -19,9 +19,9 @@ A Responsive Portfolio Website Using Html, Css and JavaScript, with a beautiful 
 
 Demo
 
-    <p><a href="#">Video Demo link</a></p>
+    <p><iframe width=420 height="315" src="https://youtu.be/kt9Yr7okCAE">Video Demo link</iframe></p>
 
-    <img src="workflow/flowchart.png" alt="" width="460" height="400">
+    <p><img src="workflow/flowchart.png" alt="" width="460" height="400"></p>
 
 
 Design
