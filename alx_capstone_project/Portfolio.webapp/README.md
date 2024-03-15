@@ -5,12 +5,12 @@ Overview
 
 A Responsive Portfolio Website Using Html, Css and JavaScript, with a beautiful user interface. It contains a Header, Home, About, Services & Skills, Portfolio, Project, Testimonial and 2 Contact Forms.
 
-Features and Functionalities
+<h2>Features and Functionalities</h2>
     Categories and tags
     User profiles
     User dashboard
 
-Technologies Used
+<h2>Technologies Used</h2>
 
     HTML
     CSS
