@@ -17,12 +17,13 @@ A Responsive Portfolio Website Using Html, Css and JavaScript, with a beautiful 
     Javascript
     Git
 
-Demo
+    DEMO LINKS
 
-    <p><iframe width=420 height="315" src="https://youtu.be/kt9Yr7okCAE">Video Demo link</iframe></p>
+  <p><iframe width=420 height="315" src="https://youtu.be/kt9Yr7okCAE">Video Demo link</iframe></p>
 
-    <p><img src="workflow/flowchart.png" alt="" width="460" height="400"></p>
+  <p><img src="workflow/flowchart.png" alt="" width="460" height="400">Flowchart image</img></p>  
 
+  <p><a href="https://youtu.be/kt9Yr7okCAE">Youtube video demo link</a></p>  
 
 Design
 
@@ -32,6 +33,7 @@ Future Enhancements
 
     Add user role management (admin).
     Implement social media sharing options for posts.
+
 
 Author: Fred Eseka <p><a href="https://github.com/dricko147">Github: dricko147</a></p>
 
